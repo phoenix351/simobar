@@ -20,7 +20,7 @@
 
       <a class="navbar-brand" href="#">
         <img src="assets/img/logo_bps.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-        DASHBOARD
+        APLIKASI ADMIN PENGELOLAAN BARANG
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,8 +31,7 @@
         </ul>
         <li class="d-flex">
           <a class="navbar-brand" href="#">
-            APLIKASI PENGELOLAAN BARANG
-            <a href="<?php esc(base_url()); ?>/login" class="btn btn-primary">Login</a>
+            Profil
           </a>
         </li>
       </div>

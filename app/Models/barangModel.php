@@ -17,4 +17,11 @@ class BarangModel extends Model
             ->where(['nip' => $nip])
             ->first();
     }
+    public function getKondisiSum()
+    {
+        return $this->asArray()
+            ->select('kondisi,count(idBarang) as jumlah')
+            ->groupBy('kondisi')
+            ->findAll();
+    }
 }

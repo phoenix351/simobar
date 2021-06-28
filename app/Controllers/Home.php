@@ -16,6 +16,7 @@ class Home extends BaseController
 		$model = new BarangModel();
 		$data = [
 			'barang'  => $model->getBarang(),
+			'kondisiSum' => $model->getKondisiSum(),
 			'title' => 'Daftar Barang',
 		];
 
